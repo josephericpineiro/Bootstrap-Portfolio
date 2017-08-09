@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Joseph's Portfolio</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <!-- Container Div -->
+  <div class="container">
+
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-default">
+
+      <!-- Place Fluid Container in Navbar -->
+      <div class="container-fluid">
+
+        <!-- Designate a navbar heading -->
+        <div class="navbar-header">
+
+          <!-- Collapsible button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+              <!-- navbar button elements-->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span> <!-- first line -->
+              <span class="icon-bar"></span> <!-- second line -->
+              <span class="icon-bar"></span> <!-- third line -->
+
+            </button>
+          <!-- Our brand / logo -->
+          <a class="navbar-brand" href="index.html">Joseph Pineiro</a>
+        </div>
+
+        <!-- The links of our navbar -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+
+            <!-- a Dropdown menu -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.josephericpineiro.com/">Personal Website</a></li>
+                <li><a href="https://www.facebook.com/josephericpineiro">Facebook</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- More links -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.linkedin.com/in/josephpineiro/"><img src="https://cdn3.iconfinder.com/data/icons/social-44/63/Social_Icons-05-128.png" width="36" height="36"><span class="sr-only">(current)</span></a></li>
+            <li><a href="https://github.com/josephericpineiro/">
+            <img src="https://cdn0.iconfinder.com/data/icons/social-36/66/28-128.png" width="36" height="36"></a></li>
+            <li><a href="https://stackoverflow.com/users/8099895/pineiro7"><img src="https://cdn1.iconfinder.com/data/icons/social-black-buttons/512/overflow-128.png" width="36" height="36"></a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+
+    <!-- Jumbotron element -->
+    <div class="jumbotron">
+
+      <!-- centered text -->
+      <h2 class="text-center"><strong>Contact Form</strong></h2>
+     <form>
+     <div class="form-group">
+    <label for="Name">Name:</label>
+    <input type="name" class="form-control" id="name" placeholder="Your name">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email" placeholder="Your email">
+  </div>
+  <div class="form-group">
+    <label for="comment">Comment:</label>
+        <input type="text" class="form-control" placeholder="Leave a comment">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox">Good Luck for Life?</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+<br>
+<footer class="text-center">
+      @Copyright 2017 Joseph Pineiro
+</footer>
+</html>
